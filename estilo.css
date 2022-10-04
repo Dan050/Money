@@ -1,0 +1,197 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Droid';
+    src: url(font/IDroid.otf);
+}
+*{
+    margin: 0%;
+}
+:root{
+    --cor1-color:#042e05;
+    --cor2-color:#0B5D1E;
+    --cor3-color:#22a311;
+    --cor4-color :#3be025;
+    --cor5-color: #78ff668f;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor2-color), var(--cor1-color));
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
+}
+header>h1{
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', arial, sans-serif;
+    font-weight: normal;
+    padding-top: 10px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 3em;
+}
+header>p{
+    padding-bottom: 8px;
+    text-shadow: 1px 1px 3px black;
+    font-size: 1.1em;
+}
+nav{
+    background-color: var(--cor1-color);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.596);
+    padding-bottom: 3.5px;
+}
+nav>a{
+    color:white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+nav>a:hover{
+    background-color: var(--cor4-color);
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    color: var(--cor1-color);
+    font-weight: bolder;
+    padding: 8px 10px 4.5px 10px;
+}
+#carouselExampleCaptions a{
+     text-decoration: none;
+}
+#Fale{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 8px 10px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+}
+#Fale input{
+    margin-bottom: 15px;
+}
+footer{
+    background-color: var(--cor1-color);
+    text-align: center;
+    color: white;
+    padding: 2px 2px;
+    margin: 2em auto 0px auto;
+}
+main{
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.685);
+    max-width: fit-content;
+}    
+article> h1, h2{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, var(--cor5-color)45%, transparent );
+    padding-left: 3px;
+    border-radius: 4px;
+    margin: 8px 8px;
+    color: var(--cor1-color);
+}
+body{
+    background-image: url('Img/Estante.jpg');
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+article>p{
+    text-indent: 20px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+article{
+    padding: 13px;
+}
+strong{
+    color: var(--cor2-color);
+}
+article a{
+    color: var(--cor2-color);
+    background-color: var(--cor5-color);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 2px 6px 2px 6px;
+    font-weight: bolder;
+}
+article a:hover{
+    text-decoration: underline;
+}
+aside{
+    background-color: var(--cor1-color);
+    border-radius: 9px;
+    text-indent: 15px;
+    padding: 7px;
+    margin: 10px 10px;
+}
+aside a{
+    background-color: var(--cor4-color);
+    color: var(--cor1-color);
+    font-weight: bolder;
+}
+aside>h1{
+    background-color: var(--cor1-color);
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+    margin: -7px -7px 0px -7px; 
+    padding: 5px 5px;
+}
+aside>p{
+    line-height: 28px;
+}
+mark{
+    background-color: #E9D2FD;
+    padding: 2.5px;
+}
+footer>a{
+    text-decoration: none;
+    color: white;
+}
+footer>a:hover{
+    text-decoration: underline;
+}
+.lista{
+    display: inline-block;
+    margin: 9px 50px 9px 6px;
+    text-decoration: underline;
+    line-height: 25px;
+}
+img{
+    width: 100%;
+    margin: 9px 9px;
+}
+#video{
+    background-color: var(--cor1-color);
+    margin: 0px -15px 0px -15px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+#video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+#coment{
+    padding: 20px;
+    width: 30em;
+    border-radius: 0px 32px 32px 32px;
+    border: 2px solid black;
+}
+form{
+    margin-left: 20px;
+}
+main a:hover{
+    text-decoration: none;
+    color: var(--cor1color);
+}
+#btenv{
+    width: 19em;
+    margin: 5px 0px 0px 10em;
+}
+.cortext{
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 10em;
+    font-weight: bolder;
+}
